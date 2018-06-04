@@ -1,0 +1,41 @@
+{
+    "name": "diwanee/login",
+    "description": ":Login module",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Diwanee",
+            "email": "bojan.lazarevic@diwanee.com",
+            "homepage": "http://www.diwanee.com/"
+        }
+    ],
+    "homepage": "https://github.com/diwanee/login",
+    "keywords": ["Laravel", "Login"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Diwanee\\Login\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Diwanee\\Login\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Diwanee\\Login\\LoginServiceProvider"
+            ],
+            "aliases": {
+                "Login": "Diwanee\\Login\\Facades\\Login"
+            }
+        }
+    }
+}
