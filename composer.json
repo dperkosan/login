@@ -1,15 +1,15 @@
 {
     "name": "diwanee/login",
-    "description": ":Login module",
-    "license": "license",
+    "description": "Login module",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Diwanee",
+            "name": "Bojan Lazarevic",
             "email": "bojan.lazarevic@diwanee.com",
             "homepage": "http://www.diwanee.com/"
         }
     ],
-    "homepage": "https://github.com/diwanee/login",
+    "homepage": "https://github.com/dperkosan/login",
     "keywords": ["Laravel", "Login"],
     "require": {
         "illuminate/support": "~5"
