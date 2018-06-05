@@ -45,6 +45,8 @@ class LoginServiceProvider extends ServiceProvider
              $this->commands([
                  \Diwanee\Login\Commands\LoginCommands::class,
              ]);
+
+            app('config')->set('graphql.schema.default.query.login', 'Diwanee\\GraphQL\\Query\\LoginQuery');
         }
     }
 
